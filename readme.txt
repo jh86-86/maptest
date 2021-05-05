@@ -1,1 +1,1 @@
-Dependencies Mongoose
+Dependencies Mongoose, commander, inquierer, prompt
