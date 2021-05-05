@@ -6,6 +6,7 @@ const prompt = require('prompt');
 
 prompt.start();
 
+console.log(process.argv) //looking for functions from this array
 
 console.log('Write "alive" if alive?');
 prompt.get(['status'], function (err, result) {
@@ -15,7 +16,7 @@ prompt.get(['status'], function (err, result) {
         }else{
         console.log('I am sorry to hear you are not alive.Maybe next time.');
         }
-    });
+   
 
         console.log("whats' your postcode? eg:b711bj")
         prompt.get(['postcode'], function (err, result) {
@@ -42,6 +43,7 @@ prompt.get(['status'], function (err, result) {
             
         });
     });
+});
 
 
 
