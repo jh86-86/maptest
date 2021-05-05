@@ -17,4 +17,7 @@ prompt.get(['status'], function (err, result) {
 function onErr(err) {
     console.log(err);
     return 1;
-}
+};
+
+
+//http://postcodes.io/
